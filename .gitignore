@@ -1,0 +1,44 @@
+# Zde jsou uloženy stažené balíčky (tato složka bývá obrovská a do gitu nepatří)
+node_modules/
+jspm_packages/
+web_modules/
+
+# Protokoly a chybové zprávy (Logs)
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Citlivá data a konfigurace prostředí (Hesla, API klíče)
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Výstupy sestavení a kompilace (Build a Dist)
+dist/
+build/
+.next/
+.nuxt/
+.output/
+out/
+
+# Nástroje pro testování a pokrytí kódu (Test coverage)
+coverage/
+.nyc_output/
+
+# Cache a dočasné soubory nástrojů
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+.vite/
+*.tsbuildinfo
+
+# Systémové soubory (macOS a Windows)
+.DS_Store
+Thumbs.db
